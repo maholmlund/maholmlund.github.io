@@ -2,12 +2,17 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        --primary-color-background: rgb(69, 75, 75);
+        --primary-color-content: rgb(41, 49, 50);
+        --secondary-color: rgb(196, 247, 161);
+        --accent-color: rgb(255, 191, 70);
+        background-color: var(--primary-color-background);
 }
 
 .banner {
         width: 100%;
         height: 10rem;
-        background-color: rgb(116, 168, 212);
+        background-color: var(--secondary-color);
 }
 
 .main {
@@ -18,7 +23,7 @@
 .content {
         width: 50rem;
         max-width: 90%;
-        background-color: coral;
+        background-color: var(--primary-color-content);
         display: flex;
         flex-direction: column;
 }
