@@ -35,6 +35,10 @@
         width: auto;
         display: flex;
         flex-direction: column;
+        border-radius: 1rem;
+        border-color: var(--primary-color-background);
+        border-width: 0.2rem;
+        border-style: solid;
 }
 
 .jobs {
@@ -69,6 +73,7 @@
         width: auto;
         display: flex;
         flex-direction: row;
+        border-width: 0;
 }
 
 .photo {
