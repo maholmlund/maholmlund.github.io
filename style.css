@@ -6,6 +6,7 @@
         --primary-color-content: rgb(41, 49, 50);
         --secondary-color: rgb(196, 247, 161);
         --accent-color: rgb(255, 191, 70);
+        --font-color: rgb(209, 209, 209);
         background-color: var(--primary-color-background);
 }
 
@@ -28,10 +29,42 @@
         flex-direction: column;
 }
 
+.section-container {
+        margin: 2rem;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+}
+
+.section-header h2 {
+        text-align: center;
+        color: var(--font-color);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        padding: 1rem;
+}
+
+.box-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
+.main-box {
+        background-color: var(--secondary-color);
+        min-width: 10rem;
+        min-height: 10rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        border-color: black;
+        border-width: 0.2rem;
+        border-style: solid;
+}
+
 .intro {
         background-color: burlywood;
         height: 20rem;
-        width: 100%;
+        width: auto;
         display: flex;
         flex-direction: row;
 }
@@ -44,41 +77,31 @@
 
 .description {
         background-color: darkmagenta;
-        width: 60%;
         height: 100%;
 }
 
 .projects {
         background-color: rgb(90, 168, 109);
-        height: 20rem;
-        width: 100%;
+        height: auto;
 }
 
 .skills-programming {
         background-color: rgb(28, 81, 105);
         height: 20rem;
-        width: 100%;
 }
 
 .skills-languages {
         background-color: rgb(212, 121, 163);
         height: 20rem;
-        width: 100%;
 }
 
 .jobs {
         background-color: beige;
         height: 20rem;
-        width: 100%;
 }
 
 .footer {
         width: 100%;
         height: 10rem;
         background-color: rgb(51, 51, 51);
-}
-
-.main-box {
-        margin: 2rem;
-        width: auto;
 }
