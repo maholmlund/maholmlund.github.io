@@ -86,8 +86,11 @@
         height: 100%;
         color: var(--font-color);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 1rem;
         font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.4rem;
 }
 
 .projects {
