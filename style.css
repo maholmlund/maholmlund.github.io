@@ -8,6 +8,7 @@
         --accent-color: rgb(255, 191, 70);
         --font-color-light: rgb(209, 209, 209);
         --font-color-dark: rgb(44, 44, 44);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .banner {
@@ -55,7 +56,6 @@
 .section-header h2 {
         text-align: center;
         color: var(--font-color-light);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 2rem;
         padding: 1rem;
 }
@@ -97,7 +97,6 @@
 .description {
         height: 100%;
         color: var(--font-color-light);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.4rem;
         display: flex;
         align-items: center;
@@ -135,4 +134,24 @@
         height: 16rem;
         object-fit: scale-down;
         border-radius: 50%;
+}
+
+.experience .main-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.experience .main-box img {
+        width: 6rem;
+        height: 6rem;
+        object-fit: scale-down;
+        margin: 0.2rem;
+}
+
+.experience .main-box p {
+        margin: 0.2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
 }
