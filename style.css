@@ -7,7 +7,6 @@
         --secondary-color: rgb(196, 247, 161);
         --accent-color: rgb(255, 191, 70);
         --font-color: rgb(209, 209, 209);
-        background-color: var(--primary-color-background);
 }
 
 .banner {
@@ -19,6 +18,7 @@
 .main {
         display: flex;
         justify-content: center;
+        background-color: var(--primary-color-background);
 }
 
 .content {
