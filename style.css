@@ -31,9 +31,14 @@
 
 .section-container {
         margin: 2rem;
+        margin-bottom: 0;
         width: auto;
         display: flex;
         flex-direction: column;
+}
+
+.jobs {
+        margin-bottom: 2rem;
 }
 
 .section-header h2 {
