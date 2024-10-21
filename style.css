@@ -100,7 +100,7 @@
 
 .skills-programming {
         background-color: rgb(28, 81, 105);
-        height: 20rem;
+        height: auto;
 }
 
 .skills-languages {
@@ -108,9 +108,9 @@
         height: 20rem;
 }
 
-.jobs {
+.experience {
         background-color: beige;
-        height: 20rem;
+        height: auto;
 }
 
 .footer {
