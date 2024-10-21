@@ -6,13 +6,20 @@
         --primary-color-content: rgb(41, 49, 50);
         --secondary-color: rgb(196, 247, 161);
         --accent-color: rgb(255, 191, 70);
-        --font-color: rgb(209, 209, 209);
+        --font-color-light: rgb(209, 209, 209);
+        --font-color-dark: rgb(44, 44, 44);
 }
 
 .banner {
         width: 100%;
         height: 10rem;
         background-color: var(--secondary-color);
+        color: var(--font-color-dark);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .main {
@@ -47,7 +54,7 @@
 
 .section-header h2 {
         text-align: center;
-        color: var(--font-color);
+        color: var(--font-color-light);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 2rem;
         padding: 1rem;
@@ -86,7 +93,7 @@
 
 .description {
         height: 100%;
-        color: var(--font-color);
+        color: var(--font-color-light);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.4rem;
         display: flex;
