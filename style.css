@@ -79,7 +79,6 @@
 }
 
 .intro {
-        height: 20rem;
         width: auto;
         display: flex;
         flex-direction: row;
@@ -156,8 +155,12 @@
         margin-right: 2rem;
 }
 
-@media only screen and (max-width: 40rem) {
+@media only screen and (max-width: 60rem) {
         .intro {
                 flex-direction: column;
+        }
+
+        .photo {
+                width: 100%;
         }
 }
