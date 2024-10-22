@@ -67,11 +67,20 @@
         min-width: 10rem;
         min-height: 10rem;
         margin: 1rem;
+        padding: 1rem;
         border-radius: 1rem;
         display: flex;
+        flex-direction: column;
+        color: var(--font-color-dark);
         justify-content: center;
         align-items: center;
         transition: 0.1s;
+}
+
+.main-box img {
+        width: 6rem;
+        height: 6rem;
+        object-fit: scale-down;
 }
 
 .intro {
@@ -97,21 +106,8 @@
         padding: 1.4rem;
 }
 
-.projects .main-box {
-        flex-direction: column;
-        color: var(--font-color-dark);
-        padding: 1rem;
-}
-
 .projects h3 {
         margin-top: 0.6rem;
-}
-
-
-.skills-programming img {
-        width: 6rem;
-        height: 6rem;
-        object-fit: scale-down;
 }
 
 .experience {
@@ -153,26 +149,6 @@
         border-radius: 50%;
 }
 
-.experience .main-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-}
-
-.experience .main-box img {
-        width: 6rem;
-        height: 6rem;
-        object-fit: scale-down;
-        margin: 0.2rem;
-}
-
-.experience .main-box p {
-        margin: 0.2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-}
-
 @media only screen and (max-width: 60rem) {
         .intro {
                 flex-direction: column;
@@ -185,5 +161,5 @@
 
 .main-box:hover {
         background-color: var(--accent-color);
-        padding: 0.4rem;
+        transform: scale(1.04);
 }
