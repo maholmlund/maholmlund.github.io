@@ -157,6 +157,22 @@
         .photo {
                 width: 100%;
         }
+
+        .banner {
+                font-size: 1.2rem;
+        }
+
+        .content {
+                max-width: 100%;
+        }
+}
+
+@media only screen and (max-width: 40rem) {
+
+        .section-container {
+                margin-left: 0.2rem;
+                margin-right: 0.2rem;
+        }
 }
 
 .main-box:hover {
