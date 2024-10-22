@@ -9,6 +9,7 @@
         --font-color-light: rgb(209, 209, 209);
         --font-color-dark: rgb(44, 44, 44);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
 }
 
 .banner {
@@ -105,6 +106,17 @@
 
 .projects {
         height: auto;
+}
+
+.projects .main-box {
+        display: flex;
+        flex-direction: column;
+        color: var(--font-color-dark);
+        padding: 1rem;
+}
+
+.projects h3 {
+        margin-top: 0.6rem;
 }
 
 .skills-programming {
